@@ -5,7 +5,7 @@ const nodemailer = require("nodemailer");
 const Mail = require('nodemailer/lib/mailer');
 const config=require('./Connection');
 
-let arrEmail=["jsgd@jjdj.com"],location,user,urlofEmail="",blobUrl="";
+let arrEmail=[],location,user,urlofEmail="",blobUrl="";
 let statusCode=500,msg="";
 
 sendEmail = () =>{
