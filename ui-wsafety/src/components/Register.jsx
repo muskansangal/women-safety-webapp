@@ -84,11 +84,10 @@ class Register extends Component  {
         <div className="row col-12 d-flex bg-primary justify-content-center text-white p2">
             <span className="h1">Our Priority-Women Safety</span>
           </div>
-          <div className="row col-4 d-flex bg-primary justify-content-center text-white">
-            <span className="h3">Register</span>
+          <div className="row mx-auto col-6 mt-3 d-flex bg-primary justify-content-center text-white">
+            <span className="h3">Regitser</span>
           </div>
-      
-        <div className="card col-4 col-lg-4 login-card mt-2 hv-center">
+        <div className="card col-6 mx-auto login-card mt-2 hv-center">
             <form>
               <div className="form-group text-left">
               <label htmlFor="exampleInputEmail1">Email address</label>
